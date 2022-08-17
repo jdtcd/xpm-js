@@ -1,7 +1,7 @@
 {
   "name": "xpm",
-  "version": "0.14.0",
-  "description": "The xPack project manager command line tool",
+  "version": "0.14.0-tcd",
+  "description": "TCD fork of the xPack project manager command line tool",
   "main": "./index.js",
   "directories": {
     "bin": "./bin",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xpack/xpm-js.git"
+    "url": "https://github.com/jdtcd/xpm-js.git"
   },
   "keywords": [
     "xpack",
@@ -47,12 +47,18 @@
     "email": "ilg@livius.net",
     "url": "https://github.com/ilg-ul/"
   },
-  "contributors": [],
+  "contributors": [
+    {
+      "name": "Jonathan Dukes",
+      "email": "jdukes@tcd.ie",
+      "url": "https://www.scss.tcd.ie"
+      }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xpack/xpm-js/issues/"
+    "url": "https://github.com/jdtcd/xpm-js/issues/"
   },
-  "homepage": "https://xpack.github.io/xpm/",
+  "homepage": "https://github.com/jdtcd/xpm-js/",
   "engines": {
     "node": ">=12"
   },
